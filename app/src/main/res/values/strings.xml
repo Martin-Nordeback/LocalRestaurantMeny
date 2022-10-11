@@ -1,0 +1,35 @@
+<resources>
+    <!--company philosophy-->
+    <string name="app_name">Local Restaurant Meny</string>
+    <string name="philosophy_header">Our Philosophy</string>
+    <string name="company_philosophy">\n\nOur menu is based on Southeast Asian food culture. All dishes are meant for sharing to create a complete culinary experience.\n\nWe recommend our Á la carte menu if you want a taste experience with great variety. You will then be served selected dishes which together create a harmony of hot, sour, salty and sweet.\n\n\n\n</string>
+    <!--menu navigation-->
+    <string name="menu">Menu</string>
+    <string name="starters">Starters</string>
+    <string name="main_course">Main Courses</string>
+    <string name="dessert">Desserts</string>
+    <!--starters-->
+    <string name="starter_first_dish">SASHIMI VIETNAMESE STYLE 325;-</string>
+    <string name="starter_first_description">asian herbs, black rice vinegar dressing</string>
+    <string name="starter_second_dish">GREEN MANGO SALAD, CRAB 345;-</string>
+    <string name="starter_second_description">cucumber, mint, green ´nahm jim´, peanuts</string>
+    <string name="starter_third_dish">FLAP STEAK ´SATAY´ 365;-</string>
+    <string name="starter_third_description">peanuts, coconut cream, lemongrass</string>
+    <!--main courses-->
+    <string name="main_first_dish">FRIED SCALLOP ´DTOM KHA´ 365;-</string>
+    <string name="main_first_description">rainbow trout roe, lemongrass</string>
+    <string name="main_second_dish">STIR FRY PAK &amp; BROCCOLI 295;-</string>
+    <string name="main_second_description">fermented chili, yellowbean, ginger</string>
+    <string name="main_third_dish">BEEF CHUCK IN RED CURRY 375;-</string>
+    <string name="main_third_description">fresh green pepper, coconut cream</string>
+    <!--desserts-->
+    <string name="dessert_first_dish">´PHANANGAN BOUNTY´ G 139;-</string>
+    <string name="dessert_first_description">young coconut ice cream, salted caramel, crystallized chocolate, whipped coconut</string>
+    <string name="dessert_second_dish">´GIN CHO´ 139;-</string>
+    <string name="dessert_second_description">dark chocolate, salted caramel, ginger ice cream</string>
+    <string name="dessert_third_dish">BANANA ´ROTI´ G 189;-</string>
+    <string name="dessert_third_description">condensed milk, caramelized banana, young coconut ice cream</string>
+    <string name="home_button">Home</string>
+
+
+</resources>

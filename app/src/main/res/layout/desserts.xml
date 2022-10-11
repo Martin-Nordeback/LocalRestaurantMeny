@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue">
+
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/home_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dessert_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="116dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/dessert"
+        android:textColor="@color/bone_white"
+        android:textSize="@dimen/large_font"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dessert_first_dish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/dessert_first_dish"
+        android:textAlignment="textStart"
+        android:textColor="@color/bone_white"
+        android:textSize="@dimen/medium_font"
+        app:layout_constraintStart_toStartOf="@+id/dessert_header"
+        app:layout_constraintTop_toBottomOf="@+id/dessert_header" />
+
+    <TextView
+        android:id="@+id/dessert_first_description"
+        android:layout_width="259dp"
+        android:layout_height="43dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/dessert_first_description"
+        android:textColor="@color/bone_white"
+        android:textSize="@dimen/small_font"
+        app:layout_constraintStart_toStartOf="@+id/dessert_first_dish"
+        app:layout_constraintTop_toBottomOf="@+id/dessert_first_dish" />
+
+    <ImageView
+        android:id="@+id/imageView10sashimi"
+        android:layout_width="@dimen/layout_pictures_width"
+        android:layout_height="@dimen/layout_pictures_height"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/dessert_first_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/dessert_first_description"
+        app:srcCompat="@drawable/kokos" />
+
+    <TextView
+        android:id="@+id/dessert_second_dish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/dessert_second_dish"
+        android:textColor="@color/bone_white"
+        android:textSize="@dimen/medium_font"
+        app:layout_constraintStart_toStartOf="@+id/dessert_header"
+        app:layout_constraintTop_toBottomOf="@+id/dessert_first_description" />
+
+    <TextView
+        android:id="@+id/dessert_description_second"
+        android:layout_width="268dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/dessert_second_description"
+        android:textColor="@color/bone_white"
+        android:textSize="@dimen/small_font"
+        app:layout_constraintStart_toStartOf="@+id/dessert_header"
+        app:layout_constraintTop_toBottomOf="@+id/dessert_second_dish" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="@dimen/layout_pictures_width"
+        android:layout_height="@dimen/layout_pictures_height"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/dessert_description_second"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/dessert_description_second"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10sashimi"
+        app:srcCompat="@drawable/choklad" />
+
+    <TextView
+        android:id="@+id/dessert_third_dish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/dessert_third_dish"
+        android:textColor="@color/bone_white"
+        android:textSize="@dimen/medium_font"
+        app:layout_constraintStart_toStartOf="@+id/dessert_header"
+        app:layout_constraintTop_toBottomOf="@+id/dessert_description_second" />
+
+    <TextView
+        android:id="@+id/dessert_description_third"
+        android:layout_width="247dp"
+        android:layout_height="39dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/dessert_third_description"
+        android:textColor="@color/bone_white"
+        android:textSize="@dimen/small_font"
+        app:layout_constraintStart_toStartOf="@+id/dessert_header"
+        app:layout_constraintTop_toBottomOf="@+id/dessert_third_dish" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="@dimen/layout_pictures_width"
+        android:layout_height="@dimen/layout_pictures_height"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/dessert_description_third"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintStart_toEndOf="@+id/dessert_description_third"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:srcCompat="@drawable/banan" />
+
+    <Button
+        android:id="@+id/buttonStarter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/starters"
+        android:textAllCaps="false"
+        android:textColor="@color/bone_white"
+        android:textSize="@dimen/medium_font"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonMainCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/main_course"
+        android:textAllCaps="false"
+        android:textColor="@color/bone_white"
+        android:textSize="@dimen/medium_font"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonStarter" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
